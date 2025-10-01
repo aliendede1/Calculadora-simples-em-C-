@@ -18,12 +18,12 @@ int main(){
   cin >> op;
   switch (op){
     case '+':
-      int soma;
+      float soma;
       soma = v1+v2;
       cout << "Soma: " << soma << endl;
         break;
       case '-': 
-      int sub;
+      float sub;
       sub = v1-v2; 
       cout << "Sub: " << sub << endl;
         break;
@@ -33,7 +33,7 @@ int main(){
       cout << "Divizão: " << div << endl;
         break;
       case '*':
-        int mult;
+        float mult;
         mult = v1*v2;
         cout << "Multiplicação: " << mult << endl;
           break;
