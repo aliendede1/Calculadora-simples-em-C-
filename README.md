@@ -9,3 +9,6 @@ Oque esta funcionando:
 - [x] Delta
 - [x] Baskara
 - [ ] Função
+- [ ] Raiz
+- [ ] Fatoração
+- [ ] Formulas (alem de Baskara e delta)
