@@ -7,4 +7,5 @@ Oque esta funcionando:
 - [x] divizão
 - [x] Multiplicação
 - [x] Delta
-
+- [x] Baskara
+- [ ] Função
