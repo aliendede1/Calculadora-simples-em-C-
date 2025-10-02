@@ -6,11 +6,11 @@ int main(){
   double v1 = 0;
   double v3 = 0;
   double v2 = 0;
-  char op;
-  cout << "Soma (A+B): + | Sub  (A-B): - | Multiplicação (A*B): * | Divizão (A/B): / | Delta [(B*B)-(4*A*C)]: d | Baskara: B \n";
+  char operador;
+  cout << "Operadores Logicos: "<< " | + | - | / | * | " << endl;
   cout << "Operador: ";
-  cin >> op;
-  switch (op){
+  cin >> operador;
+  switch (operador){
     case '+':
       float soma;
       cout << "A: ";
@@ -34,9 +34,13 @@ int main(){
       cout << "A: ";
       cin >> v1;
       cout << "B: ";
-      cin >> v2;      
+      cin >> v2;
+      if (v2 == 0){
+        cout << "0..." << endl;
+      } else {
       div = v1 / v2;
       cout << "Divizão: " << div << endl;
+      }  
         break;
       case '*':
         float mult;
@@ -81,10 +85,12 @@ int main(){
           }
           break;
       case 'r':
-          float a,b,c;
-          cout << "A:
-
-
+          float a;
+          cout << "Raiz de? ";
+          cin >> a;
+          double raiz1 = sqrt(a);
+          cout << "Raiz: "<< raiz1 << endl;
+        break;
           
   }
   return 0;
