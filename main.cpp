@@ -50,6 +50,9 @@ int main(){
           cout << "C = ";
           cin >> v3;
           delt = (v2*v2)-(4*v1*v3);
+          if (delt <= 0){
+            cout << "Não tem como fazer Baskara pois o delta e negativo" << endl;
+          } else {
           double raiz = sqrt(delt);
           x1 = (-v2 + raiz)/(2*v1);
           x2 = (-v2 - raiz)/(2*v1);
@@ -57,6 +60,7 @@ int main(){
           cout << "X1: " << x1 << endl;
           cout << "X2: " << x2 << endl;
           cout << endl;
+          }
           break;
   }
   return 0;
