@@ -80,6 +80,12 @@ int main(){
           cout << endl;
           }
           break;
+      case 'r':
+          float a,b,c;
+          cout << "A:
+
+
+          
   }
   return 0;
 }
